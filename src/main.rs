@@ -4,6 +4,7 @@ mod enums;
 mod functions;
 mod ownership;
 mod print;
+mod shadowing;
 mod structs;
 mod variables;
 
@@ -13,6 +14,9 @@ fn main() {
 
     println!("--- Variables ---");
     variables::show_variables();
+
+    println!("--- Shadowing ---");
+    shadowing::shadowing();
 
     println!("--- Scalar Types ---");
     data_types::show_scalar_types();
