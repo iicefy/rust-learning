@@ -3,10 +3,14 @@ mod data_types;
 mod enums;
 mod functions;
 mod ownership;
+mod print;
 mod structs;
 mod variables;
 
 fn main() {
+    println!("--- Print ---");
+    print::test_print();
+
     println!("--- Variables ---");
     variables::show_variables();
 
