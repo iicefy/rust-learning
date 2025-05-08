@@ -2,6 +2,7 @@ mod control_flow;
 mod data_types;
 mod enums;
 mod functions;
+mod ownership;
 mod structs;
 mod variables;
 
@@ -29,7 +30,12 @@ fn main() {
     println!("--- Structs ---");
     structs::test_structs();
 
-    println!("--- Structs ---");
+    println!("--- Enums ---");
     enums::test_status_enum();
     enums::test_message_enum();
+
+    println!("--- Ownership ---");
+    ownership::ownership_example();
+    ownership::borrowing_example();
+    ownership::mutable_borrowing_example();
 }
