@@ -1,5 +1,6 @@
 mod control_flow;
 mod data_types;
+mod enums;
 mod functions;
 mod structs;
 mod variables;
@@ -27,4 +28,8 @@ fn main() {
 
     println!("--- Structs ---");
     structs::test_structs();
+
+    println!("--- Structs ---");
+    enums::test_status_enum();
+    enums::test_message_enum();
 }
