@@ -2,6 +2,7 @@ mod control_flow;
 mod data_types;
 mod enums;
 mod functions;
+mod numbers;
 mod ownership;
 mod print;
 mod shadowing;
@@ -11,6 +12,9 @@ mod variables;
 fn main() {
     println!("--- Print ---");
     print::test_print();
+
+    println!("--- Numbers ---");
+    numbers::numbers();
 
     println!("--- Variables ---");
     variables::show_variables();
