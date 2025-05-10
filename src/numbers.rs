@@ -3,9 +3,8 @@ pub fn numbers() {
     // i = signed
     // u = unsigned
     // เลขข้างหลังคือจำนวน bit
-    // i18 ตัวเลขน้อยกว่า u8 เพราะ เสีย 1 bit เพื่อใช้บอกว่าเป็น - หรือ +
 
-    // default ของ rust เมื่อประกาศโดยไม่มี type annotation 
+    // default ของ rust เมื่อประกาศโดยไม่มี type annotation
     // int: i32, float: f64
 
     let mut a: i8 = -128;
