@@ -7,13 +7,9 @@ pub fn numbers() {
     // default ของ rust เมื่อประกาศโดยไม่มี type annotation
     // int: i32, float: f64
 
-    let mut a: i8 = -128;
-    println!("min of i8 = {}", a);
-    a = 127;
-    println!("max of i8 = {}", a);
+    println!("min of i8 = {}", i8::MIN);
+    println!("max of i8 = {}", i8::MAX);
 
-    let mut b: u8 = 0;
-    println!("min of u8 = {}", b);
-    b = 255;
-    println!("max of u8 = {}", b);
+    println!("min of u8 = {}", u8::MIN);
+    println!("max of u8 = {}", u8::MAX);
 }
